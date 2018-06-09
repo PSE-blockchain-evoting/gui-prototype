@@ -15,15 +15,15 @@ public class ConfigGUI extends JFrame {
     public ConfigGUI(){
         tabsLayout = new VerticalTabs(5);
 
-        generalView = new GeneralConfigView(tabsLayout.getTabPanel(0));
+        generalView = new GeneralConfigView(tabsLayout.getTabPanel(0), tabsLayout);
         tabsLayout.setTabText(0, "Allgemein");
-        timeView = new TimespanView(tabsLayout.getTabPanel(1));
+        timeView = new TimespanView(tabsLayout.getTabPanel(1), tabsLayout);
         tabsLayout.setTabText(1, "Zeitraum");
-        candidateView = new CandidateView(tabsLayout.getTabPanel(2));
+        candidateView = new CandidateView(tabsLayout.getTabPanel(2), tabsLayout);
         tabsLayout.setTabText(2, "Kandidaten");
-        voterView = new VoterView(tabsLayout.getTabPanel(3));
+        voterView = new VoterView(tabsLayout.getTabPanel(3), tabsLayout);
         tabsLayout.setTabText(3, "Wähler");
-        finishView = new FinishView(tabsLayout.getTabPanel(4));
+        finishView = new FinishView(tabsLayout.getTabPanel(4), tabsLayout);
         tabsLayout.setTabText(4, "Fertigstellen");
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

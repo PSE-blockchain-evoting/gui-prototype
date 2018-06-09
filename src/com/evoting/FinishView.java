@@ -5,8 +5,8 @@ import java.awt.*;
 
 public class FinishView extends ConfigView {
 
-    public FinishView(JPanel container) {
-        super(container);
+    public FinishView(JPanel container, VerticalTabs vt) {
+        super(container, vt);
     }
 
     @Override

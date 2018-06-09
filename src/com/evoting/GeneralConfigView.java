@@ -13,8 +13,8 @@ public class GeneralConfigView extends ConfigView{
     JTextArea txaDescription;
 
 
-    public GeneralConfigView(JPanel container){
-        super(container);
+    public GeneralConfigView(JPanel container, VerticalTabs vt){
+        super(container, vt);
     }
 
     protected void initComponents(){

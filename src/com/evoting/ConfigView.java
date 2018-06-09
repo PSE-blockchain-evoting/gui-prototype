@@ -2,8 +2,12 @@ package com.evoting;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public abstract class ConfigView extends JPanel {
+
+    protected VerticalTabs vt;
 
     protected JPanel pnlMain;
     protected JPanel pnlButtons;
@@ -13,9 +17,17 @@ public abstract class ConfigView extends JPanel {
     protected LayoutManager2 layout;
 
 
-    public ConfigView(JPanel container){
+    public ConfigView(JPanel container, VerticalTabs vt){
+        this.vt = vt;
+
         btnCancel = new JButton("Abbrechen");
         btnContinue = new JButton("Weiter");
+        btnContinue.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                vt.nextTab();
+            }
+        });
         pnlMain = new JPanel();
         //pnlMain.setBorder(BorderFactory.createLineBorder(Color.MAGENTA));
         pnlButtons = new JPanel();
@@ -50,7 +62,6 @@ public abstract class ConfigView extends JPanel {
         pnlMain.setLayout(layout);
 
     }
-
 
     protected abstract void initComponents();
     protected abstract LayoutManager2 buildLayout(JPanel container);

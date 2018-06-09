@@ -125,7 +125,7 @@ public class VerticalTabs extends JPanel {
     }
 
     public void nextTab(){
-        tabLayout.next(tabPanelContainer);
+        setSelected((selected + 1) % tabcount);
     }
 
     private class TabListener implements ActionListener{

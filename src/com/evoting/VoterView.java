@@ -5,8 +5,8 @@ import java.awt.*;
 
 public class VoterView extends ConfigView{
 
-    public VoterView(JPanel container) {
-        super(container);
+    public VoterView(JPanel container, VerticalTabs vt) {
+        super(container, vt);
     }
 
     @Override

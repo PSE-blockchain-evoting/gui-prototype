@@ -15,8 +15,8 @@ public class TimespanView extends ConfigView{
     private JComboBox<String> cbxExtraCond = new JComboBox<>();
 
 
-    public TimespanView(JPanel container){
-        super(container);
+    public TimespanView(JPanel container, VerticalTabs vt){
+        super(container, vt);
     }
 
     @Override
