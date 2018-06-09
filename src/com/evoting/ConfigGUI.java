@@ -1,5 +1,8 @@
 package com.evoting;
 
+import com.evoting.components.VerticalTabs;
+import com.evoting.views.*;
+
 import javax.swing.*;
 
 public class ConfigGUI extends JFrame {

@@ -2,21 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6721ff04-e33b-4f01-a04c-8d9fe7ab2718" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/DynamicList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/evoting/CandidateEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/evoting/CandidateList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/evoting/DynamicList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/evoting/components/CandidateList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/evoting/components/ComponentExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/evoting/components/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/evoting/components/Extendable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/evoting/components/ExtendableList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/evoting/components/LabelExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/evoting/components/ListExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/evoting/components/NumberedExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/evoting/components/RemovableExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/evoting/components/TextFieldExtension.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/CandidateView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/CandidateView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/evoting/CandidateView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/CandidateView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/CandidateEntry$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/CandidateEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/CandidateList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/CandidateView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/CandidateView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/ConfigGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/ConfigGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/ConfigView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/ConfigView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/DynamicList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/FinishView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/GeneralConfigView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/TimespanView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/VerticalTabs$TabListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/VerticalTabs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseGUI/com/evoting/VoterView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/evoting/CandidateEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/evoting/CandidateList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/evoting/CandidateView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/views/CandidateView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/evoting/ConfigGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/ConfigGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/evoting/ConfigView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/ConfigView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/evoting/FinishView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/FinishView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/evoting/GeneralConfigView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/GeneralConfigView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/evoting/TimespanView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/TimespanView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/evoting/VerticalTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/VerticalTabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/evoting/VoterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/VoterView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/evoting/ConfigView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/views/ConfigView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/evoting/DynamicList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/components/BasicList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/evoting/FinishView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/views/FinishView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/evoting/GeneralConfigView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/views/GeneralConfigView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/evoting/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/evoting/TimespanView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/views/TimespanView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/evoting/VerticalTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/components/VerticalTabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/evoting/VoterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evoting/views/VoterView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,128 +53,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CandidateView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/evoting/CandidateView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VoterView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/evoting/VoterView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-              <folding>
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimespanView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/evoting/TimespanView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-              <folding>
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigGUI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConfigGUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/evoting/ConfigGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+            <state relative-caret-position="60">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FinishView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/evoting/FinishView.java">
+      <file leaf-file-name="TextFieldExtension.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/evoting/components/TextFieldExtension.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberedExtension.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/evoting/components/NumberedExtension.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
               <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComponentExtension.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/evoting/components/ComponentExtension.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LabelExtension.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/evoting/components/LabelExtension.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding>
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CandidateList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/evoting/CandidateList.java">
+        <entry file="file://$PROJECT_DIR$/src/com/evoting/components/CandidateList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CandidateEntry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/evoting/CandidateEntry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-                <element signature="e#1137#1138#0" expanded="true" />
-                <element signature="e#1277#1278#0" expanded="true" />
-                <element signature="e#1302#1303#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneralConfigView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/evoting/GeneralConfigView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/evoting/ConfigView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-              <folding>
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VerticalTabs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/evoting/VerticalTabs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="127" column="33" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
-              <folding>
-                <element signature="e#3673#3674#0" expanded="true" />
-                <element signature="e#3725#3726#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,7 +147,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/evoting/DynamicList.java" />
-        <option value="$PROJECT_DIR$/src/com/evoting/CandidateList.java" />
         <option value="$PROJECT_DIR$/src/com/evoting/CandidateEntry.java" />
         <option value="$PROJECT_DIR$/src/com/evoting/ConfigView.java" />
         <option value="$PROJECT_DIR$/src/com/evoting/VerticalTabs.java" />
@@ -181,6 +156,30 @@
         <option value="$PROJECT_DIR$/src/com/evoting/FinishView.java" />
         <option value="$PROJECT_DIR$/src/com/evoting/TimespanView.java" />
         <option value="$PROJECT_DIR$/src/com/evoting/ConfigGUI.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/CandidateList.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/views/TimespanView.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/NumberedEntry.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/DynamicList.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/ListEntry.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/ListDecorator.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/NumberedList.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/BasicList.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/TextFieldModifier.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/ListModifier.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/UIList.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/RemovableModifier.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/Entry.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/NumberedModifier.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/ExtendedList.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/ExtendableList.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/views/CandidateView.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/ListExtension.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/LabelExtension.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/CandidateList.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/ComponentExtension.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/TextFieldExtension.java" />
+        <option value="$PROJECT_DIR$/src/com/evoting/components/NumberedExtension.java" />
       </list>
     </option>
   </component>
@@ -194,16 +193,15 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-2" />
+    <option name="y" value="20" />
     <option name="width" value="1920" />
-    <option name="height" value="1082" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -224,10 +222,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="evoting" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pseGUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pseGUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="evoting" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pseGUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pseGUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="evoting" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,6 +254,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.evoting.components" />
+      <recent name="com.evoting.views" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.evoting.components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.." />
     </key>
@@ -264,7 +284,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.evoting.*" />
+          <option name="PATTERN" value="com.evoting.views.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,15 +348,16 @@
       <updated>1528461029076</updated>
       <workItem from="1528461038804" duration="266000" />
       <workItem from="1528465984227" duration="2513000" />
-      <workItem from="1528535520581" duration="4521000" />
+      <workItem from="1528535520581" duration="20316000" />
+      <workItem from="1528561321446" duration="6582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7300000" />
+    <option name="totallyTimeSpent" value="29677000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1920" height="1082" extended-state="0" />
+    <frame x="0" y="20" width="1920" height="1060" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -349,24 +370,24 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32277834" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33019853" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299285" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24166666" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37078652" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299285" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,20 +398,108 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/evoting/views/CandidateView.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/evoting/CandidateView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/views/CandidateView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/TextFieldExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/Extendable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/ListExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/NumberedExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/BasicList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/Entry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/ExtendableList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/views/CandidateView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -402,16 +511,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/evoting/CandidateView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/views/CandidateView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -423,48 +530,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/evoting/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/evoting/DynamicList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/evoting/CandidateEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1302#1303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/evoting/CandidateList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/evoting/VerticalTabs.java">
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/VerticalTabs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="127" column="33" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
@@ -475,10 +541,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/evoting/ConfigView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/views/ConfigView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding>
             <element signature="e#719#720#0" expanded="true" />
             <element signature="e#763#764#0" expanded="true" />
@@ -486,28 +552,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/evoting/GeneralConfigView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/views/FinishView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/evoting/CandidateView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="105">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/evoting/VoterView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/views/VoterView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
@@ -518,32 +574,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/evoting/FinishView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/views/TimespanView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/views/GeneralConfigView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/NumberedList.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/ListDecorator.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/ListEntry.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/NumberedEntry.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/CandidateEntry.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/Entry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/evoting/TimespanView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/views/CandidateView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/RemovableExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/Extendable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/ListExtension.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/BasicList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/ExtendableList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/evoting/ConfigGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+        <state relative-caret-position="60">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/LabelExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/CandidateList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/TextFieldExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/NumberedExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evoting/components/ComponentExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

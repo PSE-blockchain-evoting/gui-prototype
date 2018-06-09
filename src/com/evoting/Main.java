@@ -8,8 +8,8 @@ public class Main{
         //Setting Look and Feel
         try {
             //UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
-            //UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
-            UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk.GTKLookAndFeel");
+            UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
+            //UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk.GTKLookAndFeel");
         } catch (UnsupportedLookAndFeelException ex) {
             ex.printStackTrace();
         } catch (IllegalAccessException ex) {
