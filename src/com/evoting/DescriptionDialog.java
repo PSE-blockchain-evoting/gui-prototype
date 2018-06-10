@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.LinkedList;
+import java.util.ResourceBundle;
 
 public class DescriptionDialog extends JDialog {
 
@@ -15,20 +16,23 @@ public class DescriptionDialog extends JDialog {
     public DescriptionDialog(JFrame parent){
         super(parent);
 
+        ResourceBundle lang = ResourceBundle.getBundle("res/AdminConfig");
+
+        this.setTitle(lang.getString("DescriptionTitle"));
         this.setModal(true);
         this.setSize(200,300);
         this.setLocationRelativeTo(null);
 
         listener = new LinkedList<>();
 
-        lblDescription = new JLabel("Beschreibung;");
+        lblDescription = new JLabel();
         txaDescription = new JTextArea();
         txaDescription.setColumns(10);
         txaDescription.setRows(1);
         txaDescription.setLineWrap(true);
         txaDescription.setWrapStyleWord(true);
 
-        btnConfirm = new JButton("OK");
+        btnConfirm = new JButton(lang.getString("btnConfirmText"));
         btnConfirm.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -62,7 +66,8 @@ public class DescriptionDialog extends JDialog {
     }
 
     public void setVisible(String name, boolean b){
-        lblDescription.setText("Beschreibung zu " + name + ":");
+        ResourceBundle lang = ResourceBundle.getBundle("res/AdminConfig");
+        lblDescription.setText(lang.getString("lblDescriptionAboutCandidateText") + name + ":");
         super.setVisible(b);
     }
 

@@ -1,6 +1,9 @@
 package com.evoting;
 
+import javax.annotation.Resource;
 import javax.swing.*;
+import java.util.Locale;
+import java.util.ResourceBundle;
 
 public class Main{
 
@@ -20,6 +23,7 @@ public class Main{
             ex.printStackTrace();
         }
 
+        Locale.setDefault(new Locale("de", "DE"));
         ConfigGUI cg = new ConfigGUI();
     }
 }

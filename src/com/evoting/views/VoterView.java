@@ -7,6 +7,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ResourceBundle;
 
 public class VoterView extends ConfigView {
 
@@ -22,7 +23,8 @@ public class VoterView extends ConfigView {
         vl = VoterList.createVoterList();
         vl.addNewEntry();
 
-        btnAdd = new JButton("Add");
+        ResourceBundle lang = ResourceBundle.getBundle("res/AdminConfig");
+        btnAdd = new JButton(lang.getString("btnVoterAddText"));
         btnAdd.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {

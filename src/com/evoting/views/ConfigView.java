@@ -6,6 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ResourceBundle;
 
 public abstract class ConfigView extends JPanel {
 
@@ -22,8 +23,9 @@ public abstract class ConfigView extends JPanel {
     public ConfigView(JPanel container, VerticalTabs vt){
         this.vt = vt;
 
-        btnCancel = new JButton("Abbrechen");
-        btnContinue = new JButton("Weiter");
+        ResourceBundle lang = ResourceBundle.getBundle("res/AdminConfig");
+        btnCancel = new JButton(lang.getString("btnCancelText"));
+        btnContinue = new JButton(lang.getString("btnContinueText"));
         btnContinue.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {

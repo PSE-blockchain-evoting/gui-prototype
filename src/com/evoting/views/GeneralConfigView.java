@@ -4,6 +4,7 @@ import com.evoting.components.VerticalTabs;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.ResourceBundle;
 
 public class GeneralConfigView extends ConfigView {
 
@@ -20,11 +21,13 @@ public class GeneralConfigView extends ConfigView {
     }
 
     protected void initComponents(){
-        lblName = new JLabel("Name:");
+        ResourceBundle lang = ResourceBundle.getBundle("res/AdminConfig");
+
+        lblName = new JLabel(lang.getString("lblNameText") + ":");
         lblName.setHorizontalAlignment(SwingConstants.RIGHT);
-        lblVotingSystem = new JLabel("Wahlsystem:");
+        lblVotingSystem = new JLabel(lang.getString("lblVotingSystemText") + ":");
         lblVotingSystem.setHorizontalAlignment(SwingConstants.RIGHT);
-        lblDescription = new JLabel("Beschreibung:");
+        lblDescription = new JLabel(lang.getString("lblDescriptionText") + ":");
         lblDescription.setHorizontalAlignment(SwingConstants.RIGHT);
         txfName = new JTextField();
         cbxVotingSystem = new JComboBox<>();

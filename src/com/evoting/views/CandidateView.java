@@ -6,6 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ResourceBundle;
 
 public class CandidateView extends ConfigView {
 
@@ -18,12 +19,13 @@ public class CandidateView extends ConfigView {
 
     @Override
     protected void initComponents() {
+        ResourceBundle lang = ResourceBundle.getBundle("res/AdminConfig");
 
         JFrame parent = (JFrame)getTopLevelAncestor();
         candidates = CandidateList.createCandidateList(parent);
         candidates.addNewEntry();
 
-        btnAdd = new JButton("Add");
+        btnAdd = new JButton(lang.getString("btnCandidateAddText"));
         btnAdd.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {

@@ -7,6 +7,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.LinkedList;
+import java.util.ResourceBundle;
 
 public class DescriptionExtension extends ComponentExtension<JButton>{
 
@@ -30,11 +31,11 @@ public class DescriptionExtension extends ComponentExtension<JButton>{
         DescriptionDialog dd = new DescriptionDialog(parent);
         dds.add(dd);
 
-        JButton btnNew = new JButton("Beschreibung");
+        ResourceBundle lang = ResourceBundle.getBundle("res/AdminConfig");
+        JButton btnNew = new JButton(lang.getString("btnDescriptionText"));
         btnNew.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                System.out.println("Setting dd visible");
                 dd.setVisible(true);
             }
         });
