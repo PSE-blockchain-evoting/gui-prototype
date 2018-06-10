@@ -1,4 +1,7 @@
-package com.evoting.components;
+package com.evoting.components.listExtensions;
+
+import com.evoting.components.Entry;
+import com.evoting.components.ListExtension;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

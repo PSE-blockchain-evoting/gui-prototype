@@ -1,9 +1,12 @@
-package com.evoting.components;
+package com.evoting.components.listExtensions;
+
+import com.evoting.components.Entry;
+import com.evoting.components.ListExtension;
 
 import javax.swing.*;
 import java.util.LinkedList;
 
-public abstract class ComponentExtension<Type extends JComponent> extends ListExtension{
+public abstract class ComponentExtension<Type extends JComponent> extends ListExtension {
 
     protected LinkedList<Type> components;
 
@@ -24,10 +27,13 @@ public abstract class ComponentExtension<Type extends JComponent> extends ListEx
 
     @Override
     public void removeEntry(Entry e) {
-        int i = searchIndex(e);
-        components.remove(i);
-
         super.removeEntry(e);
+        int i = searchIndex(e);
+        removeData(i);
+    }
+
+    protected void removeData(int i){
+        components.remove(i);
     }
 
     protected abstract Type createNewType();
@@ -40,6 +46,10 @@ public abstract class ComponentExtension<Type extends JComponent> extends ListEx
             }
             n++;
         }
+
+        assert(0 <= n && n < components.size());
+        assert(components.get(n) == e);
+
         throw new IllegalStateException("This entry doesn't exist.");
     }
 }

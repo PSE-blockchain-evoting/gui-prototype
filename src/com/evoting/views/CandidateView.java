@@ -19,7 +19,8 @@ public class CandidateView extends ConfigView {
     @Override
     protected void initComponents() {
 
-        candidates = CandidateList.createCandidateList();
+        JFrame parent = (JFrame)getTopLevelAncestor();
+        candidates = CandidateList.createCandidateList(parent);
         candidates.addNewEntry();
 
         btnAdd = new JButton("Add");

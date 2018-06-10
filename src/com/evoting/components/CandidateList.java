@@ -1,6 +1,11 @@
 package com.evoting.components;
 
-import java.util.List;
+import com.evoting.components.listExtensions.DescriptionExtension;
+import com.evoting.components.listExtensions.NumberedExtension;
+import com.evoting.components.listExtensions.RemovableExtension;
+import com.evoting.components.listExtensions.TextFieldExtension;
+
+import javax.swing.*;
 
 public class CandidateList extends ExtendableList{
 
@@ -8,18 +13,10 @@ public class CandidateList extends ExtendableList{
         super(e);
     }
 
-    public static CandidateList createCandidateList(){
-        RemovableExtension re = new RemovableExtension(null);
-        TextFieldExtension tfe = new TextFieldExtension(re);
-        NumberedExtension ne = new NumberedExtension(tfe);
-
+    public static CandidateList createCandidateList(JFrame parent){
+        NumberedExtension ne = new NumberedExtension(new TextFieldExtension(new DescriptionExtension( new RemovableExtension(null), parent)));
         CandidateList cl = new CandidateList(ne);
-
         ne.setList(cl);
-        tfe.setList(cl);
-        re.setList(cl);
-
         return cl;
     }
 }
-

@@ -31,6 +31,9 @@ public abstract class ListExtension {
             throw new IllegalArgumentException("List is Null");
         }
         this.list = list;
+        if(next != null){
+            next.setList(list);
+        }
     }
 
 }

@@ -1,5 +1,7 @@
 package com.evoting.components;
 
+import com.evoting.components.listExtensions.ComponentExtension;
+
 import javax.swing.*;
 
 public class LabelExtension extends ComponentExtension<JLabel> {
